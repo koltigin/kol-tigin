@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Simple Portfolio Template
 
-## Getting Started
+A clean, responsive portfolio template built with Next.js 15, Tailwind CSS, and Shadcn/UI. Perfect for developers, creators, and anyone looking to showcase their work with a modern web presence. Designed to be easily customizable and deployable to Arweave using Arlink.
 
-First, run the development server:
+[![Portfolio Tutorial](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+## Features
+
+- 🎨 Clean, minimal design
+- 📱 Fully responsive
+- 🔧 Easy to customize
+
+## Quick Start
+
+1. Fork this repository
+2. Clone your forked repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/arweave-web-portfolio-template
+cd arweave-web-portfolio-template
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+# or
+pnpm install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Customization Guide
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Personal Information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit the following files to add your information:
+
+- `src/lib/constants.ts`:
+
+  - Update `CONTACT_EMAIL`
+  - Modify `EMAIL_SUBJECT`
+
+- `src/components/hero.tsx`:
+  - Change name, tagline, and introduction
+  - Update social media links
+
+### 2. Content Sections
+
+- `src/components/about.tsx`:
+
+  - Modify the about text
+  - Update your background information
+
+- `src/components/work.tsx`:
+  - Add your projects in the projects array
+  - Update project images (store in `public/` directory)
+
+### 3. Social Links
+
+Update all social media links in:
+
+- Hero section
+- Footer section
+- Navigation menu
+
+### 4. Images
+
+Replace the following images in the `public/` directory:
+
+- `pfp.png` (your profile picture)
+- Project images
+- Any other custom images
+
+## Deployment
+
+1. Build your site:
+
+```bash
+npm run build
+# or
+pnpm build
+```
+
+2. Deploy to Arweave using Arlink:
+   [Link to deployment tutorial video will be added]
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Shadcn/UI](https://ui.shadcn.com)
+- [Arweave](https://arweave.org)
+- [Arlink](https://arlink.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License - feel free to use this template for your own portfolio!
