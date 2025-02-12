@@ -95,11 +95,14 @@ pnpm build
 
 ## Learn More
 
+- [Framer Marketplace](https://www.framer.com/marketplace/)
+- [v0](https://v0.dev/)
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [Shadcn/UI](https://ui.shadcn.com)
 - [Arweave](https://arweave.org)
 - [Arlink](https://arlink.app)
+- [ArNS](https://arns.app/)
 
 ## Contributing
 
