@@ -2,7 +2,9 @@
 
 A clean, responsive portfolio template built with Next.js 15, Tailwind CSS, and Shadcn/UI. Perfect for developers, creators, and anyone looking to showcase their work with a modern web presence. Designed to be easily customizable and deployable to Arweave using Arlink.
 
-[![Revamp Your Web Portfolio in 5 mins!!](https://github.com/user-attachments/assets/27d39af5-dd7e-447a-bad8-aab32f9b15fb)](https://youtu.be/AfsWNdA1fng)
+Click me for video guide 👇
+
+[![Revamp Your Web Portfolio in 5 mins!!](https://github.com/user-attachments/assets/27d39af5-dd7e-447a-bad8-aab32f9b15fb)](https://x.com/ropats16/status/1889177674855387623)
 
 ## Features
 
