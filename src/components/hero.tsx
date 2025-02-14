@@ -107,11 +107,11 @@ export function Hero() {
         className="relative w-full md:w-5/12 aspect-square md:aspect-auto md:h-[600px]"
       >
         <Image
-          src="/pfp.png"
+          src="/pfp_new.png"
           alt="Profile Image"
           width={600}
           height={600}
-          className="object-contain rounded-full"
+          className="object-fit rounded-full"
           priority
         />
       </motion.div>
