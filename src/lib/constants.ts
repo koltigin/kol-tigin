@@ -1,2 +1,2 @@
-export const CONTACT_EMAIL = "rohitcpathare@gmail.com";
-export const EMAIL_SUBJECT = "Let's create something amazing";
+export const CONTACT_EMAIL = "koltigin@anatolianteam.com";
+export const EMAIL_SUBJECT = "Always forward...";
