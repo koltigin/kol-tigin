@@ -47,7 +47,7 @@ export function Hero() {
           Hey I'm Kol Tigin! My real profession is Biologist (PhD in Zoology) but I've been involved with technology since the 90s and I'm a blockchain enthusiast. 
           I'm constantly learning and improving myself by wondering about the development and future of blockchain technology. 
           I believe in decentralization, permaweb and privacy. I prepare content and guides on these topics. 
-          As the Anatolian Team, we contribute to decentralization with our validator and other services.
+          As the Anatolian Team, we contribute to decentralization with our validators and other services.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
