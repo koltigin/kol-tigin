@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold tracking-tight"
         >
-          Rohit
+          Kol Tigin
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -44,9 +44,10 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-xl text-muted-foreground max-w-[600px]"
         >
-          Hey, I&apos;m Rohit! I create educational content and tools that make
-          it super easy for anyone to learn new technical concepts. Currently,
-          I&apos;m building in the Arweave ecosystem with this simple idea 👇
+          Hey I'm Kol Tigin! My real profession is Biologist (PhD in Zoology) but I've been involved with technology since the 90s and I'm a blockchain enthusiast. 
+          I'm constantly learning and improving myself by wondering about the development and future of blockchain technology. 
+          I believe in decentralization, permaweb and privacy. I prepare content and guides on these topics. 
+          As the Anatolian Team, we contribute to decentralization with our validator and other services.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -54,7 +55,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl font-semibold italic"
         >
-          &quot;Come for the tech, stay for the vibes.&quot;
+          &quot;Think out of the box.&quot;
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -74,7 +75,38 @@ export function Hero() {
           className="flex gap-4 pt-4"
         >
           <a
-            href="https://x.com/ropats16"
+            href="https://bsky.app/profile/koltigin.bsky.social"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-70"
+          >
+            <FaBluesky size={24} />
+          </a>
+          <a
+            href="https://warpcast.com/koltigin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-70"
+          >
+            <FaArchway size={24} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/koltigin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-70"
+          >
+            <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://github.com/koltigin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-70"
+          >
+            <FaGithub size={24} />
+          <a
+            href="https://x.com/mkoltigin"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70"
@@ -82,20 +114,12 @@ export function Hero() {
             <FaXTwitter size={24} />
           </a>
           <a
-            href="https://youtube.com/rohitcpatharre"
+            href="https://www.youtube.com/@mehmetkoltigin"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70"
           >
-            <FaYoutube size={24} />
-          </a>
-          <a
-            href="https://discord.com/users/ropats16"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70"
-          >
-            <FaDiscord size={24} />
+            <FaYouTube size={24} />
           </a>
         </motion.div>
       </motion.div>
