@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rohit",
+  title: "Kol Tigin",
   description: "Learn · Innovate · Collaborate",
   icons: {
     icon: "/favicon.svg",
