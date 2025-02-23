@@ -28,26 +28,29 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold">
-              Hey, it&apos;s Rohit!
+              Hey, it&apos;s Kol Tigin!
             </h2>
             <p className="text-xl text-muted-foreground">
-              I&apos;m a Developer Relations Engineer based in India,
-              specializing in creating educational content and tools that
-              simplify technical concepts. I&apos;m passionate about the Arweave
-              ecosystem, where I believe in collaboration over competition.
+              I&apos;m a with a PhD based in Türkiye, and I have published numerous articles in the academic community. 
+              However, in the Blockchain community, I prefer to remain anonymous, using my pseudonym.
             </p>
             <p className="text-xl text-muted-foreground">
-              My journey in the web3 space has been focused on building bridges
-              between complex technology and developers. Through my work at
-              Arweave India, Community Labs, and Developer DAO, I&apos;ve
-              consistently worked to make technology more accessible and
-              enjoyable to learn.
+              My interest in technology began in the 1990s when I got my first desktop computer. 
+              I have always had an inquisitive, research-driven spirit. I clearly remember the joy and satisfaction 
+              I felt after creating my first HTML website, followed by a peaceful and content night’s sleep. 
+              Later, I discovered PHP Fusion, where I wrote plugins and themes. 
+              As part of my profession, I use Adobe Illustrator for drawings, but I also use it as a hobby for design projects outside of work.
             </p>
             <p className="text-xl text-muted-foreground">
-              The following philosophy guides my work, as I always say 👇
+              Unfortunately, due to my postgraduate studies, I was introduced to blockchain a bit later. 
+              However, I adapted quickly, learned a great deal, and continue to learn. 
+              I believe in blockchain and its future. I value decentralization, the permaweb, and privacy. 
+              Rather than focusing on competition, I find great fulfillment in achieving things through collaboration. 
+              I am supportive of the blockchain community's development based on ethical values, and together with my team, we will work toward contributing in any way we can.
+              
             </p>
             {/* <p className="text-xl font-medium italic">
-              &quot;Come for the tech, stay for the vibes.&quot;
+              &quot;Think out of the box&quot;
             </p> */}
           </motion.div>
           <motion.div
