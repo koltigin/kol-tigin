@@ -31,23 +31,22 @@ export function About() {
               Hey, it&apos;s Kol Tigin!
             </h2>
             <p className="text-xl text-muted-foreground">
-              I&apos;m a Biologist &lpar;PhD in Zoology&rpar; based in Türkiye, and I have published numerous articles in the academic community. 
+              I&apos;m a biologist with a PhD in zoology, based in Türkiye, and I have published numerous articles in the academic community. 
               However, in the Blockchain community, I prefer to remain anonymous, using my pseudonym.
             </p>
             <p className="text-xl text-muted-foreground">
-              My interest in technology began in the 1990s when I got my first desktop computer. 
-              I have always had an inquisitive, research-driven spirit. I clearly remember the joy and satisfaction 
-              I felt after creating my first HTML website, followed by a peaceful and content night&apos;s sleep. 
-              Later, I discovered PHP Fusion, where I wrote plugins and themes. 
-              As part of my profession, I use Adobe Illustrator for drawings, but I also use it as a hobby for design projects outside of work.
+              My interest in technology began in the 1990s when I acquired my first desktop computer. 
+              I have always been curious and analytical, driven by a passion for research. 
+              I still remember the joy and satisfaction of creating my first HTML website, followed by a deeply satisfying night&apos;s sleep. 
+              Later, I discovered PHP Fusion, where I developed plugins and themes. 
+              Professionally, I use Adobe Illustrator for drawings, but I also enjoy using it as a hobby for personal design projects.
             </p>
             <p className="text-xl text-muted-foreground">
-              Unfortunately, due to my postgraduate studies, I was introduced to blockchain a bit later. 
-              However, I adapted quickly, learned a great deal, and continue to learn. 
-              I believe in blockchain and its future. I value decentralization, the permaweb, and privacy. 
-              Rather than focusing on competition, I find great fulfillment in achieving things through collaboration. 
-              I am supportive of the blockchain community&apos;s development based on ethical values, and together with my team, we will work toward contributing in any way we can.
-              
+              Unfortunately, I was introduced to blockchain a bit later due to my postgraduate studies. 
+              However, I adapted quickly, learned a lot, and continue to expand my knowledge. 
+              I strongly believe in blockchain and its future. I value decentralization, the permaweb, and privacy. 
+              Rather than focusing on competition, I find great fulfillment in achieving goals through collaboration. 
+              I am committed to the ethical development of the blockchain community, and together with my team, we will contribute in every way we can.
             </p>
             {/* <p className="text-xl font-medium italic">
               &quot;Think out of the box&quot;
