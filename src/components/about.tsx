@@ -60,7 +60,7 @@ export function About() {
             className="relative w-full aspect-video"
           >
             <Image
-              src="/vibes.png"
+              src="/out-of-the-box.jpg"
               alt="About Image"
               fill
               className="object-cover rounded-2xl"

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Kol Tigin",
   description: "Learn · Innovate · Collaborate",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
 };
 

@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-// import { FaBluesky, FaArchway, FaLinkedin, FaGithub, FaXTwitter, FaYotube } from "react-icons/fa6";
-import { FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaBluesky, FaArchway, FaLinkedin, FaGithub, FaXTwitter, FaYoutube } from "react-icons/fa6";
+// import { FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { handleEmailClick } from "@/lib/utils";
 
 export function Hero() {
@@ -75,22 +75,54 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex gap-4 pt-4"
         >
-          <a
-            href="https://x.com/mkoltigin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70"
-          >
-            <FaXTwitter size={24} />
-          </a>
-          <a
-            href="https://www.youtube.com/@mehmetkoltigin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70"
-          >
-            <FaYoutube size={24} />
-          </a>
+        <a
+          href="https://bsky.app/profile/koltigin.bsky.social"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaBluesky size={24} />
+        </a>
+        <a
+          href="https://warpcast.com/koltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaArchway size={24} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/koltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaLinkedin size={24} />
+        </a>
+        <a
+          href="https://github.com/koltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaGithub size={24} />
+        </a>
+        <a
+          href="https://x.com/mkoltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaXTwitter size={24} />
+        </a>
+        <a
+          href="https://www.youtube.com/@mehmetkoltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaYoutube size={24} />
+        </a>
         </motion.div>
       </motion.div>
       <motion.div

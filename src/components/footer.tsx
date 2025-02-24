@@ -1,7 +1,7 @@
 "use client";
 
 import { Mail, MapPin } from "lucide-react";
-import { FaXTwitter, FaYoutube, FaDiscord } from "react-icons/fa6";
+import { FaBluesky, FaArchway, FaLinkedin, FaGithub, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { handleEmailClick } from "@/lib/utils";
@@ -24,12 +24,11 @@ export function Footer() {
           className="text-center space-y-8"
         >
           <h2 className="text-4xl md:text-5xl font-bold">
-            Let&apos;s create something amazing
+            Always forward with the Anatolian Team 🐆
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Whether you&apos;re interested in learning about Arweave, need help
-            with web3 development, or want to collaborate on educational
-            content, I&apos;d love to hear from you.
+          As the Anatolian Team, we are here with an experienced team to contribute to and collaborate 
+          on the development of blockchain and Web3 in every possible way. Feel free to contact us!
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -55,7 +54,7 @@ export function Footer() {
             </a>
             <a href="#" className="hover:opacity-70 flex items-center gap-2">
               <MapPin size={20} />
-              <span>India</span>
+              <span>Türkiye</span>
             </a>
           </motion.div>
           <motion.div
@@ -64,30 +63,54 @@ export function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <a
-              href="https://x.com/ropats16"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-70"
-            >
-              <FaXTwitter size={24} />
-            </a>
-            <a
-              href="https://youtube.com/rohitcpatharre"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-70"
-            >
-              <FaYoutube size={24} />
-            </a>
-            <a
-              href="https://discord.com/users/ropats16"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-70"
-            >
-              <FaDiscord size={24} />
-            </a>
+        <a
+          href="https://bsky.app/profile/koltigin.bsky.social"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaBluesky size={24} />
+        </a>
+        <a
+          href="https://warpcast.com/koltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaArchway size={24} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/koltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaLinkedin size={24} />
+        </a>
+        <a
+          href="https://github.com/koltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaGithub size={24} />
+        </a>
+        <a
+          href="https://x.com/mkoltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaXTwitter size={24} />
+        </a>
+        <a
+          href="https://www.youtube.com/@mehmetkoltigin"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-70"
+        >
+          <FaYoutube size={24} />
+        </a>
           </motion.div>
           <motion.div
             className="pt-16 text-sm text-muted-foreground"
@@ -95,7 +118,7 @@ export function Footer() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <p>&copy; {new Date().getFullYear()} Rohit. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} KolTigin. All rights reserved.</p>
           </motion.div>
         </motion.div>
       </div>
