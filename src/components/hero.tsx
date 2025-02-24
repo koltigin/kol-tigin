@@ -133,7 +133,7 @@ export function Hero() {
         className="relative w-full md:w-5/12 aspect-square md:aspect-auto md:h-[600px]"
       >
         <Image
-          src="/Anatolian-Team-Profile-Yeni-KolTigin-2.png"
+          src="/Anatolian-Team-Profile-Yeni.png"
           alt="Profile Image"
           width={600}
           height={600}
