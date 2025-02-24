@@ -31,7 +31,7 @@ export function About() {
               Hey, it&apos;s Kol Tigin!
             </h2>
             <p className="text-xl text-muted-foreground">
-              I&apos;m a with a PhD based in Türkiye, and I have published numerous articles in the academic community. 
+              I&apos;m a Biologist &lpar;PhD in Zoology&rpar; based in Türkiye, and I have published numerous articles in the academic community. 
               However, in the Blockchain community, I prefer to remain anonymous, using my pseudonym.
             </p>
             <p className="text-xl text-muted-foreground">

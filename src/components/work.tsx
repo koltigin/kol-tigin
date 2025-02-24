@@ -45,7 +45,7 @@ export function Work() {
         transition={{ duration: 0.5 }}
         className="text-4xl md:text-6xl font-bold mb-12"
       >
-        Anatolian Team
+        🐆 Anatolian Team
       </motion.h2>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => (

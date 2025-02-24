@@ -18,7 +18,7 @@ export function Navigation() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-8">
           <Link href="#work" className="hover:opacity-70">
-            Anatolian Team
+            🐆 Anatolian Team 
           </Link>
           <Link href="#about" className="hover:opacity-70">
             About
