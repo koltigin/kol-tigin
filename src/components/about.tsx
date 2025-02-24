@@ -37,7 +37,7 @@ export function About() {
             <p className="text-xl text-muted-foreground">
               My interest in technology began in the 1990s when I got my first desktop computer. 
               I have always had an inquisitive, research-driven spirit. I clearly remember the joy and satisfaction 
-              I felt after creating my first HTML website, followed by a peaceful and content night’s sleep. 
+              I felt after creating my first HTML website, followed by a peaceful and content night&apos;s sleep. 
               Later, I discovered PHP Fusion, where I wrote plugins and themes. 
               As part of my profession, I use Adobe Illustrator for drawings, but I also use it as a hobby for design projects outside of work.
             </p>
@@ -46,7 +46,7 @@ export function About() {
               However, I adapted quickly, learned a great deal, and continue to learn. 
               I believe in blockchain and its future. I value decentralization, the permaweb, and privacy. 
               Rather than focusing on competition, I find great fulfillment in achieving things through collaboration. 
-              I am supportive of the blockchain community's development based on ethical values, and together with my team, we will work toward contributing in any way we can.
+              I am supportive of the blockchain community&apos;s development based on ethical values, and together with my team, we will work toward contributing in any way we can.
               
             </p>
             {/* <p className="text-xl font-medium italic">

@@ -45,7 +45,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-xl text-muted-foreground max-w-[600px]"
         >
-          Hey I&apos;m Kol Tigin! My real profession is Biologist (PhD in Zoology) but I've been involved with technology since the 90s and I&apos;m a blockchain enthusiast. 
+          Hey I&apos;m Kol Tigin! My real profession is Biologist &lpar;PhD in Zoology&rpar; but I&apos;ve been involved with technology since the 90s and I&apos;m a blockchain enthusiast. 
           I&apos;m constantly learning and improving myself by wondering about the development and future of blockchain technology. 
           I believe in decentralization, permaweb and privacy. I prepare content and guides on these topics. 
           As the Anatolian Team, we contribute to decentralization with our validators and other services.
