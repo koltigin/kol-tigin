@@ -23,7 +23,7 @@ const projects = [
     title: "Services",
     period: "",
     image: "/anatolian-doc-social-card.jpg",
-    description: "Aleph Zero Testnet Validator",
+    description: "Guides, snaptshots, statesyncs and more...",
     url: "https://services.anatolianteam.com/",
   },
 ];
